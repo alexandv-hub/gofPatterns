@@ -3,7 +3,8 @@ package gofPatterns.structural.decorator;
 public class NotificationSenderApp {
 
     public static void main(String[] args) {
-        Notification telegramNotification = new TelegramNotification(new SmsNotification(new EmailNotification()));
+        Notification telegramNotification
+                = new TelegramNotification(new SmsNotification(new EmailNotification()));
         sendNotification(telegramNotification);
     }
 

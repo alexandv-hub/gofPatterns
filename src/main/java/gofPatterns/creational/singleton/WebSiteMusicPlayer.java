@@ -22,6 +22,4 @@ public class WebSiteMusicPlayer {
         System.out.println("The track '" + track.getName() + "' stopped.");
     }
 
-
-
 }

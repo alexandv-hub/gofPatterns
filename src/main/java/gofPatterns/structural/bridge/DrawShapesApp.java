@@ -4,6 +4,7 @@ import gofPatterns.structural.bridge.colors.GreenColor;
 import gofPatterns.structural.bridge.colors.RedColor;
 import gofPatterns.structural.bridge.shapes.Rectangle;
 import gofPatterns.structural.bridge.shapes.Shape;
+import gofPatterns.structural.bridge.shapes.Triangle;
 
 public class DrawShapesApp {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ public class DrawShapesApp {
         Shape rectangleRed = new Rectangle(new RedColor());
         rectangleRed.draw();
 
-        Shape triangle = new Rectangle(new RedColor());
+        Shape triangle = new Triangle(new RedColor());
         triangle.draw();
     }
 }

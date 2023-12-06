@@ -14,7 +14,7 @@ public class PacManGame {
 
     public Save save() {
         System.out.println("Level " + level.getLevelNum() + " saved!");
-        return new Save(level);
+        return new Save(level, date);
     }
 
     public void load(Save save) {

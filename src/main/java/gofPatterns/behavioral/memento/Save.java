@@ -7,9 +7,9 @@ public class Save {
     private Level level;
     private Date date;
 
-    public Save(Level level) {
+    public Save(Level level, Date date) {
         this.level = level;
-        this.date = new Date();
+        this.date = date;
     }
 
     public Level getLevel() {
